@@ -2,6 +2,7 @@ import streamlit as st
 import re
 import PyPDF2
 import google.generativeai as genai
+import pandas as pd  # Import pandas for table creation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
